@@ -53,6 +53,7 @@ body {
 
 img {
   display: block;
+  height: auto;
 }
 
 .header {
@@ -151,16 +152,16 @@ img {
 }
 
 /* HERO */
-.hero-section {
-  padding-top: 0;
-  padding-bottom: 0;
-}
+
 .hero {
   background: #2e2f42;
   max-width: 1440px;
-  max-height: 600px;
+  height: auto;
   margin: 0 auto;
-  padding-bottom: 94px;
+  padding-top: 188px;
+  padding-bottom: 140px;
+  justify-content: center;
+  
 }
 
 .hero-title {
@@ -170,9 +171,9 @@ img {
   line-height: 1.07;
   text-align: center;
   letter-spacing: 0.02em;
-  padding-top: 94px;
-  padding-bottom: 48px;
   margin: 0;
+  
+
 }
 button {
   cursor: pointer;
@@ -193,6 +194,7 @@ button {
   letter-spacing: 0.04em;
   min-width: 105px;
   min-height: 24px;
+  margin-top: 48px;
 }
 .hero-button:active,
 .hero-button:hover,
@@ -218,12 +220,11 @@ button {
 }
 .container-list {
   display: flex;
-  padding-left: 156px;
-  padding-right: 156px;
+  
   gap: 24px;
 }
 .list-section {
-  margin-top: 148px;
+  padding-top: 148px;
 }
 .title-section {
   color: var(--primary-text-color);
@@ -231,8 +232,10 @@ button {
   font-size: 20px;
   line-height: 1.2;
   letter-spacing: 0.02em;
-  padding-bottom: 8px;
-  margin: 0 auto;
+  margin-bottom: 8px;
+  height: auto;
+  margin-top: 0;
+ 
 }
 
 .section-list {
@@ -241,12 +244,14 @@ button {
   letter-spacing: 0.02em;
   color: var(--title-text-color);
   margin: 0 auto;
+  
 }
 
 /* work */
 
 .work-section {
-  margin-top: 120px;
+  padding-top: 120px;
+  height: auto;
 }
 .work-title {
   color: var(--primary-text-color);
@@ -257,7 +262,7 @@ button {
   letter-spacing: 0.02em;
   text-transform: capitalize;
   margin: 0 auto;
-  padding-bottom: 72px;
+  margin-bottom: 72px;
 }
 
 .about-list {
@@ -282,13 +287,20 @@ button {
     url(2368);
   background-blend-mode: soft-light, normal;
   border: 1px solid #e7e9fc;
+  display: block;
+  height: auto;
+}
+.foto-list{
+  display: block;
+  height: auto;
 }
 
 /* our team */
 
 .team-section {
   background: #f4f4fd;
-  padding-bottom: 120px;
+  padding-top: 120px;
+  height: auto;
   
 }
 
@@ -301,14 +313,13 @@ button {
   text-transform: capitalize;
   color: var(--primary-text-color);
   margin: 0 auto;
-  padding-top: 120px;
-  padding-bottom: 72px;
+  margin-bottom: 72px;
 }
 
 .team-list {
   display: flex;
   gap: 24px;
-  padding-bottom: 32px;
+  padding-bottom: 120px;
   justify-content: center;
 }
 
@@ -354,6 +365,9 @@ button {
 
 .footer {
   background: #2e2f42;
+    width: 1440px;
+    height: auto;
+    margin: 0 auto;
 }
 
 .footer-logo {
@@ -447,16 +461,13 @@ button {
   display: flex;
   flex-wrap: wrap;
   gap: 48px 24px;
-  padding-left: 156px;
-  padding-right: 156px;
-  padding-bottom: 120px;
   justify-content: center;
   
 }
 .offers-item {
   background: #ffffff;
   border: 1px solid #e7e9fc;
-  width: calc(100% - 90px) / 3);
+  width: calc(100% - 90px) /3);
 }
 
 .offers-title {
@@ -465,6 +476,8 @@ button {
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: var(--primary-text-color);
+  margin-top:32px;
+  margin-bottom:0 ;
   
 }
 .offers-link {
@@ -472,7 +485,13 @@ button {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: var(--title-text-color);
+  margin-top: 8px;
+  margin-bottom: 0;
 }
+.portfolio{
+  padding-bottom: 120px;
+}
+]
 /* products */
 .products {
   list-style: none;
