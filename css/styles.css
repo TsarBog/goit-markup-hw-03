@@ -193,6 +193,8 @@ button {
   min-width: 105px;
   min-height: 24px;
   margin-top: 48px;
+  border: none;
+  padding: 16px 32px 16px 32px;
 }
 .hero-button:active,
 .hero-button:hover,
@@ -249,6 +251,7 @@ button {
 
 .work-section {
   padding-top: 120px;
+  padding-bottom: 120px;
  
 }
 .work-title {
@@ -300,7 +303,7 @@ button {
 }
 .team-text-flex{
   background: #FFFFFF;
-  padding-top: 32px;
+  padding: 32px 15px 32px 15px;
 }
 
 .team-title {
@@ -343,7 +346,6 @@ button {
   letter-spacing: 0.02em;
   color: var(--title-text-color);
   margin: 0;
-  padding-bottom: 32px;
 }
 
 .foto-list {
@@ -356,11 +358,9 @@ button {
 
 .footer {
   background: #2e2f42;
-    width: 1440px;
-    height: auto;
-    margin: 0 auto;
-    padding-bottom: 100px;
-    padding-top: 101.5px;
+  padding-bottom: 100px;
+  padding-top: 100px;
+  margin: 0 auto;
 }
 
 .footer-logo {
@@ -399,7 +399,7 @@ button {
   display: flex;
   gap: 24px;
   justify-content: center;
-  padding-bottom: 72px;
+  margin-bottom: 72px;
 }
 .portfolio{
   padding-top: 96px;
@@ -422,27 +422,37 @@ button {
 
 .button:hover {
   color: var(--accent-color-hero);
-  background: #404bbf;
   box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 2px 1px rgba(0, 0, 0, 0.08),
     0px 2px 2px rgba(0, 0, 0, 0.12);
   border-radius: 4px;
+  border-color: #404bbf;
+  background:#404bbf;
 }
 .button:focus {
   color: var(--accent-color-hero);
-  background: #404bbf;
+  border-color: #404bbf;
   box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 2px 1px rgba(0, 0, 0, 0.08),
     0px 2px 2px rgba(0, 0, 0, 0.12);
   border-radius: 4px;
+  background:#404bbf;
 }
 .button:active {
   color: var(--accent-color-hero);
-  background: #404bbf;
+ border-color: #404bbf;
   box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 2px 1px rgba(0, 0, 0, 0.08),
     0px 2px 2px rgba(0, 0, 0, 0.12);
   border-radius: 4px;
+  background:#404bbf;
 }
 /* Offers */
 
+.portfolio-div{
+  background: #ffffff;
+  border:  1px solid #e7e9fc;
+  border-top: 0;
+  padding-top: 32px;
+  
+}
 .offers {
   list-style: none;
   display: flex;
@@ -452,8 +462,6 @@ button {
   
 }
 .offers-item {
-  background: #ffffff;
-  border: 1px solid #e7e9fc;
   width: calc(100% - 90px) /3);
 }
 
@@ -463,7 +471,7 @@ button {
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: var(--primary-text-color);
-  margin-top:32px;
+  margin-top: 0;
   margin-bottom:0 ;
   
 }
@@ -484,8 +492,7 @@ button {
   list-style: none;
 }
 .products-item {
-  background: #ffffff;
-  border: 1px solid #e7e9fc;
+  
 }
 .link {
   text-decoration: none;
