@@ -47,8 +47,6 @@ body {
 .header-container {
   display: flex;
   align-items: center;
-  height: 72px;
-  border-bottom: 1px solid #e7e9fc;
 }
 
 img {
@@ -57,15 +55,12 @@ img {
 }
 
 .header {
-  padding-top: 24px;
+  border-bottom: 1px solid #e7e9fc;
+  
 }
 .header-nav {
   display: flex;
   align-items: center;
-  justify-content: space-between;
-  padding-bottom: 24px;
-  padding-top: 24px;
-  height: 72px;
   margin-right: auto;
 }
 
@@ -83,8 +78,7 @@ img {
   line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-  padding-left: 72px;
-  padding-right: 76px;
+  margin-right: 76px;
 }
 
 .list {
@@ -114,6 +108,8 @@ img {
   letter-spacing: 0.02em;
   text-decoration: none;
   font-weight: 500;
+  padding-top: 24px;
+  padding-bottom: 24px;
 }
 .header-link:hover,
 .header-link:active,
@@ -143,6 +139,8 @@ img {
   letter-spacing: 0.02em;
   text-decoration: none;
   gap: 40px;
+  padding-top: 24px;
+  padding-bottom: 24px;
 }
 
 .address-link:hover,
@@ -155,11 +153,8 @@ img {
 
 .hero {
   background: #2e2f42;
-  max-width: 1440px;
-  height: auto;
-  margin: 0 auto;
   padding-top: 188px;
-  padding-bottom: 140px;
+  padding-bottom: 188px;
   justify-content: center;
   
 }
@@ -171,7 +166,10 @@ img {
   line-height: 1.07;
   text-align: center;
   letter-spacing: 0.02em;
-  margin: 0;
+  margin: 0 auto;
+  width: 500px;
+
+
   
 
 }
@@ -224,7 +222,7 @@ button {
   gap: 24px;
 }
 .list-section {
-  padding-top: 148px;
+  padding-top: 120px;
 }
 .title-section {
   color: var(--primary-text-color);
@@ -251,7 +249,7 @@ button {
 
 .work-section {
   padding-top: 120px;
-  height: auto;
+ 
 }
 .work-title {
   color: var(--primary-text-color);
@@ -268,11 +266,8 @@ button {
 .about-list {
   list-style: none;
   display: flex;
-  padding-left: 156px;
-  padding-right: 156px;
-  justify-content: center;
   gap: 24px;
-  padding-bottom: 120px;
+
 }
 
 .about-item {
@@ -292,7 +287,6 @@ button {
 }
 .foto-list{
   display: block;
-  height: auto;
 }
 
 /* our team */
@@ -301,7 +295,12 @@ button {
   background: #f4f4fd;
   padding-top: 120px;
   height: auto;
+  padding-bottom: 120px;
   
+}
+.team-text-flex{
+  background: #FFFFFF;
+  padding-top: 32px;
 }
 
 .team-title {
@@ -319,7 +318,6 @@ button {
 .team-list {
   display: flex;
   gap: 24px;
-  padding-bottom: 120px;
   justify-content: center;
 }
 
@@ -334,10 +332,8 @@ button {
   text-align: center;
   letter-spacing: 0.02em;
   color: var(--primary-text-color);
-  background: #ffffff;
-  margin: 0 auto;
-  padding-top: 32px;
-  padding-bottom: 8px;
+  margin-top: 0;
+  margin-bottom: 8px;
 }
 
 .team-text {
@@ -346,19 +342,14 @@ button {
   text-align: center;
   letter-spacing: 0.02em;
   color: var(--title-text-color);
-  background: #ffffff;
-  margin: 0 auto;
-  box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
-    0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
-  border-radius: 0px 0px 4px 4px;
+  margin: 0;
   padding-bottom: 32px;
 }
 
 .foto-list {
   background: #ffffff;
-  box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
-    0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
   border-radius: 0px 0px 4px 4px;
+   
 }
 
 /* Footer */
@@ -368,6 +359,8 @@ button {
     width: 1440px;
     height: auto;
     margin: 0 auto;
+    padding-bottom: 100px;
+    padding-top: 101.5px;
 }
 
 .footer-logo {
@@ -380,11 +373,8 @@ button {
   align-items: center;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-  text-decoration: none;
   color: var(--accent-color);
-  padding-left: 156px;
-  padding-top: 100px;
-  padding-bottom: 16px;
+  
 }
 
 .web-logo {
@@ -400,22 +390,19 @@ button {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  padding-left: 156px;
-  padding-bottom: 100px;
-  padding-right: 1020px;
   width: 264px;
-  height: 72px;
+  margin-bottom: 0;
 }
 
 /* Portfolio list */
 .container-portfolio {
   display: flex;
-  padding-left: 427px;
-  padding-right: 427px;
-  padding-top: 96px;
-  padding-bottom: 72px;
   gap: 24px;
   justify-content: center;
+  padding-bottom: 72px;
+}
+.portfolio{
+  padding-top: 96px;
 }
 .button {
   width: 116px;
