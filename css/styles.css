@@ -473,15 +473,18 @@ button {
   color: var(--primary-text-color);
   margin-top: 0;
   margin-bottom:0 ;
-  
+  padding-left: 16px;
 }
 .offers-link {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: var(--title-text-color);
-  margin-top: 8px;
+  padding-bottom: 32px;
+  padding-left: 16px;
+  margin-top:8;
   margin-bottom: 0;
+
 }
 .portfolio{
   padding-bottom: 120px;
